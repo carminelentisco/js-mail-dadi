@@ -26,7 +26,11 @@ for (i = 0; i < listEmail.length; i++) {
 // Avviso 
 
 if (verifyEmail == true) {
-    console.log('Verificata');
+        document.getElementById('verifyEmail').innerHTML = 'Accesso consentito';
     } else {
-    console.log('E-mail Rifiutata');
+        document.getElementById('verifyEmail').innerHTML = 'Accesso Negato';
 }
+
+// Stampa 
+
+document.getElementById('userEmail').innerHTML = userEmail;

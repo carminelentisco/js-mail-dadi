@@ -1,0 +1,17 @@
+/* import */
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+2:400,700&display=swap');
+
+/* GENERAL RULE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: dodgerblue;
+    font-family: 'Baloo 2', cursive; 
+    font-weight: 700;
+}
