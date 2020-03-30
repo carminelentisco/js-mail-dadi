@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+
+.button {
+    /* Formattazione */
+    background-color: black;
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    /* Text */
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    /* Animation */
+    transition: border-radius 1s, background .4s;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: black;
+    border-radius: 30px;
+}
+
