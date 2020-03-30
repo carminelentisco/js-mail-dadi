@@ -6,7 +6,7 @@ console.log('JS è stato inserito correttamente');
 
 // Dati iniziali
 
-var listEmail = ["michele@boolean.careers", "fabio@boolean.careers", "roberto@boolean.careers"]
+var listEmail = ["michele@boolean.careers", "fabio@boolean.careers", "roberto@boolean.careers"];
 var userEmail = prompt('Inserisci qui la tua E-mail : ');
 var verifyEmail = false;
 // Controllo E-mail
@@ -27,6 +27,6 @@ for (i = 0; i < listEmail.length; i++) {
 
 if (verifyEmail == true) {
     console.log('Verificata');
-} else {
+    } else {
     console.log('E-mail Rifiutata');
 }
